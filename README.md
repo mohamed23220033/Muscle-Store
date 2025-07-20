@@ -115,3 +115,5 @@ graph TD;
     Home --> comments
     FeaturedProducts --> ProductCard
     Navbar--> ProductCard
+    offer--> ProductCard
+    products--> ProductCard
