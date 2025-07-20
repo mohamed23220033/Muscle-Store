@@ -108,8 +108,10 @@ A modern, responsive React e-commerce UI for gym lovers and supplement brands. D
 graph TD;
     App --> Home
     Home--> Navbar
-    Home -->|Routing| Home
-    Home --> 
+    Home -->offer
+    Home -->products 
     Home --> FeaturedProducts
-    Home --> SubscribeSection
+    Home --> Subscribe
+    Home --> comments
     FeaturedProducts --> ProductCard
+    Navbar--> ProductCard
