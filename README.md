@@ -13,7 +13,7 @@ A modern, responsive React e-commerce UI for gym lovers and supplement brands. D
 ## 🖼️ UI Previews
 
 ### 🔥 Hero Section
-![Hero Section](./assets/images/hero-section.jpg)
+![Hero Section](Capture.jpg)
 
 ### 🏆 Featured Products
 ![Products Section](./assets/images/products-section.jpg)
