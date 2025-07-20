@@ -106,10 +106,10 @@ A modern, responsive React e-commerce UI for gym lovers and supplement brands. D
 
 ```mermaid
 graph TD;
-    App --> Header
-    App --> Footer
-    App -->|Routing| Home
-    Home --> HeroSection
+    App --> Home
+    Home--> Navbar
+    Home -->|Routing| Home
+    Home --> 
     Home --> FeaturedProducts
     Home --> SubscribeSection
     FeaturedProducts --> ProductCard
