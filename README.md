@@ -21,6 +21,58 @@ A modern, responsive React e-commerce UI for gym lovers and supplement brands. D
 
 ### 📬 Subscribe for Offers
 ![Subscribe Section](./assets/images/subscribe-section.jpg)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Muscle Store Screenshots</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #121212;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+
+    h1 {
+      color: #00bcd4;
+    }
+
+    img {
+      max-width: 90%;
+      height: auto;
+      margin: 30px auto;
+      border: 3px solid #00bcd4;
+      border-radius: 10px;
+      box-shadow: 0 0 20px rgba(0, 188, 212, 0.3);
+      display: block;
+    }
+
+    .caption {
+      margin-top: -20px;
+      margin-bottom: 40px;
+      font-size: 18px;
+      color: #ccc;
+    }
+  </style>
+</head>
+<body>
+  <h1>🖼️ Muscle Store Project Screenshots</h1>
+
+  <img src="Capture.JPG" alt="Hero Section" />
+  <div class="caption">🏷️ Hero Banner with Discount Offer</div>
+
+  <img src="Capture2.JPG" alt="Best Products Section" />
+  <div class="caption">⭐ Best Rated Products with Order Buttons</div>
+
+  <img src="Capture3.JPG" alt="Subscription Section" />
+  <div class="caption">📬 Email Subscription Section</div>
+
+</body>
+</html>
+
 
 ---
 
