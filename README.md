@@ -6,7 +6,7 @@ A modern, responsive React e-commerce UI for gym lovers and supplement brands. D
 
 ## 🚀 Live Demo
 
-🔗 [Click here to visit the store]()
+🔗 [Click here to visit the store](https://muscle-store.netlify.app/)
 
 ---
 
