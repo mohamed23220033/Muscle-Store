@@ -1,50 +1,71 @@
-# Muscle-Store
-# 💪 Muscle-Store
+# 💪 Muscle Store
 
-![Muscle Store Banner](https://i.imgur.com/FjzF3qZ.png)
-
-An advanced **React-based e-commerce frontend** designed for gym and bodybuilding equipment. Built for performance, responsiveness, and ease of navigation, Muscle-Store is perfect for fitness brands looking to showcase their products with a modern UI.
+A modern, responsive React e-commerce UI for gym lovers and supplement brands. Designed to showcase products like whey, creatine, and mass gainers with style, clarity, and simplicity.
 
 ---
 
-## 🚀 Live Preview
+## 🚀 Live Demo
 
-🌐 [Live Demo](https://mohamed23220033.github.io/Muscle-Store)
-
----
-
-## 📊 Project Overview
-
-![Language](https://img.shields.io/github/languages/top/mohamed23220033/Muscle-Store)
-![Repo Size](https://img.shields.io/github/repo-size/mohamed23220033/Muscle-Store)
-![Last Commit](https://img.shields.io/github/last-commit/mohamed23220033/Muscle-Store)
-![Issues](https://img.shields.io/github/issues/mohamed23220033/Muscle-Store)
-![License](https://img.shields.io/github/license/mohamed23220033/Muscle-Store)
+🔗 [Click here to visit the store](https://mohamed23220033.github.io/Muscle-Store)
 
 ---
 
-## 🧠 Features
+## 🖼️ UI Previews
 
-- 🔍 **Product Filtering** by category, price, or type
-- 📱 **Fully Responsive** UI for mobile, tablet, and desktop
-- 🛒 **Cart System** with add-to-cart and checkout visuals
-- 🌙 **Dark/Light Mode** UI support
-- ⚡️ **Fast Load Times** with optimized React code
-- 💬 **User-Friendly Interface** with smooth animations
+### 🔥 Hero Section
+![Hero Section](./assets/images/hero-section.jpg)
 
----
+### 🏆 Featured Products
+![Products Section](./assets/images/products-section.jpg)
 
-## 🏆 Advantages of Muscle-Store
-
-| Feature                        | Description                                                                 |
-|-------------------------------|-----------------------------------------------------------------------------|
-| 🔥 High Performance           | Optimized React components deliver fast loading times.                      |
-| 🎯 Targeted for Fitness Users | Designed with bodybuilders and gym users in mind.                           |
-| 🎨 Beautiful Design           | Modern UI/UX with engaging visuals and consistent branding.                 |
-| ⚙️ Scalable Codebase         | Modular architecture supports future backend integration (MERN Ready).     |
-| 📦 E-commerce Ready           | Easily extendable for real online sales and order management.               |
+### 📬 Subscribe for Offers
+![Subscribe Section](./assets/images/subscribe-section.jpg)
 
 ---
 
-## 📂 Folder Structure
+## 📦 Features
 
+- 🌗 Light & Dark mode toggle
+- 🛒 Add to Cart interface
+- 🔍 Product filtering & browsing
+- 💬 Call to action and newsletter sections
+- 🧱 Component-based architecture with React
+
+---
+
+## 🧠 Why Muscle Store?
+
+| Benefit              | Description                                                                 |
+|----------------------|-----------------------------------------------------------------------------|
+| 🚀 Fast Performance  | Optimized layout using functional React components                          |
+| 📱 Mobile Friendly   | Responsive design for all devices                                           |
+| 🔧 Easy to Maintain  | Clean and modular code for easy expansion                                   |
+| 💅 Modern UI         | Uses modern design principles to attract fitness audiences                  |
+| 💬 Informative Cards | Each product includes details, rating, and instant order button             |
+
+---
+
+## 🛠 Tech Stack
+
+| Tech          | Description              |
+|---------------|--------------------------|
+| React JS      | Main UI framework        |
+| HTML & CSS    | Structure and styling    |
+| JavaScript    | Functionality & logic    |
+| GitHub Pages  | Deployment platform      |
+
+---
+
+## 📊 Visual Insights
+
+### 🧩 Component Relationship Diagram
+
+```mermaid
+graph TD;
+    App --> Header
+    App --> Footer
+    App -->|Routing| Home
+    Home --> HeroSection
+    Home --> FeaturedProducts
+    Home --> SubscribeSection
+    FeaturedProducts --> ProductCard
